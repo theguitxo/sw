@@ -1,0 +1,23 @@
+<div class="container-fluid home">
+
+  <div class="row">
+
+    <div
+      *ngFor="let item of getOpciones()"
+      class="col col-12 col-sm-6 col-md-4 col-lg-3">
+
+      <div class="item text-center">
+
+        <img src="../../../sw/assets/backgrounds/{{item.opcion}}.jpg" class="img-fluid rounded-circle border border-dark">
+
+        <div class="titulo d-flex justify-content-center align-items-center rounded-circle" (click)="irA(item.opcion)">
+          <div>{{item.titulo}}</div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>

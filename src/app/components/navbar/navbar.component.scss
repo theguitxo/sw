@@ -1,0 +1,27 @@
+.navbar {
+  background-image: url('../../../assets/backgrounds/coruscant.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .navbar-toggler {
+    background-color: #ccc;
+    cursor: pointer;
+  }
+
+  .navbar-toggler-icon {
+  	background-image: url('../../../assets/icons/Darth-Vader-icon.png');
+  }
+
+  .navbar-brand {
+    color: #fff;
+  }
+
+  .nav-link {
+    color: #fff;
+    &:hover {
+      color: #ffc;
+    }
+  }
+
+}

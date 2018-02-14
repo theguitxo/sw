@@ -1,0 +1,7 @@
+@mixin bordes-redondos($valor) {
+
+  -webkit-border-radius: $valor;
+  -moz-border-radius: $valor;
+  border-radius: $valor;
+
+}
