@@ -8,7 +8,7 @@ export interface AppUrl {
 }
 
 export const API_URL: AppUrl = {
-    api_url: 'https://swapi.dev/api/'
+    api_url: 'https://swapi.co/api/'
 };
 
 // MENU
